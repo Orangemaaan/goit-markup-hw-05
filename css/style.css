@@ -406,13 +406,18 @@ section {
     background-color: var(--text-color-theme-light);
 }
 
+.employee-description {
+    padding: 30px 32px;
+}
+
 .employee-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-    padding: 30px 50px 10px;
+
+    margin-bottom: 10px;
 
     color: var(--primary-text-color-theme-dark);
 }
@@ -423,7 +428,7 @@ section {
     letter-spacing: 0.03em;
     text-align: center;
 
-    padding: 0px 50px 16px;
+    margin-bottom: 16px;
 
     color: var(--secondary-text-color-theme-dark);
 }
@@ -432,8 +437,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    padding: 0px 32px 30px;
 }
 
 .social-list-item:not(:last-child) {
