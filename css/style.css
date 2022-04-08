@@ -779,6 +779,21 @@ section {
 .social-link-footer:focus .social-link-logo-footer {
     fill: var(--text-color-theme-light);
 }
+
+.mail-outs {
+    margin-left: 93px;
+}
+
+.subcribe {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--text-color-theme-light);
+}
+
 /*=====END FOOTER=====*/
 
 .backdrop {
@@ -826,4 +841,8 @@ section {
     background-color: transparent;
     padding: 0;
     cursor: pointer;
+}
+
+.modal-close-btn:hover {
+    fill: var(--accent-color);
 }
